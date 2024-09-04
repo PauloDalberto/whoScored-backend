@@ -3,11 +3,10 @@ import multer from 'multer';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { dirname } from 'path';
 import cloudinary from '../config/cloudinaryConfig.js';
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const __dirname = path.dirname(__filename);
 const router = express.Router();
 
 // Configuração do multer
@@ -76,6 +75,18 @@ router.post('/league/player', upload.single('videoFile'), async (req, res) => {
   } catch (error) {
     console.error('Erro ao inserir o jogador:', error);
     res.status(500).json({ error: 'Erro ao inserir o jogador.' });
+  }
+});
+
+// Rota para obter os jogadores por liga
+router.get('/league/:league/players', (req, res) => {
+  const league = req.params.league;
+  try {
+    const data = loadLeagueData(league);
+    res.json(data);
+  } catch (error) {
+    console.error('Erro ao obter dados da liga:', error);
+    res.status(500).json({ error: 'Erro ao obter dados da liga.' });
   }
 });
 
