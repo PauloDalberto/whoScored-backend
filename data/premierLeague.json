@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "das",
+    "nationality": "das",
+    "club": "das",
+    "age": "21",
+    "position": "das",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725454486/premierLeague/kjznkup7owk4msclc3fn.mp4"
+  },
+  {
+    "id": 2,
+    "name": "Paulo Henrique Dalberto",
+    "nationality": "brasil",
+    "club": "porra",
+    "age": "231",
+    "position": "midflieder",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725455021/premierLeague/okpjjd4skfgu6gedvypq.mp4"
+  },
+  {
+    "id": 3,
+    "name": "dsa",
+    "nationality": "dsa",
+    "club": "dsa",
+    "age": "21",
+    "position": "dsa",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725459542/premierLeague/oex8i7wcmit3b3k3rgnk.mp4"
+  }
+]

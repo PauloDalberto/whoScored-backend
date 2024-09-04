@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Arquivos de build
+dist/
+build/
+
+# Arquivos de configuração do IDE
+.vscode/
+.idea/
+
+# Arquivos de sistema
+.DS_Store
+*.log
+
+# Arquivos temporários
+*.tmp
+*.swp
+
+# Arquivos de ambiente
+.env
+
+uploads/
