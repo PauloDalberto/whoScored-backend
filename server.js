@@ -4,11 +4,17 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import leagueRoutes from './routes/leagueRoutes.js';
 
+// Obter o diretório atual
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-app.use(cors());
+
+// Configuração CORS
+app.use(cors({
+  origin: '*', // Permitir qualquer origem, ajuste conforme necessário para produção
+}));
+
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public'))); // Serve arquivos estáticos da pasta 'public'
 
