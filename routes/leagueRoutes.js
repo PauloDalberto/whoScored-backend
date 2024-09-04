@@ -78,16 +78,11 @@ router.post('/league/player', upload.single('videoFile'), async (req, res) => {
   }
 });
 
-// Rota para obter os jogadores por liga
+// Rota para obter jogadores da liga
 router.get('/league/:league/players', (req, res) => {
   const league = req.params.league;
-  try {
-    const data = loadLeagueData(league);
-    res.json(data);
-  } catch (error) {
-    console.error('Erro ao obter dados da liga:', error);
-    res.status(500).json({ error: 'Erro ao obter dados da liga.' });
-  }
+  const leagueData = loadLeagueData(league);
+  res.json(leagueData);
 });
 
 export default router;

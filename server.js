@@ -12,7 +12,7 @@ const app = express();
 
 // Configuração CORS
 app.use(cors({
-  origin: '*', // Permitir qualquer origem, ajuste conforme necessário para produção
+  origin: '*', // Permitir qualquer origem para desenvolvimento, ajuste conforme necessário para produção
 }));
 
 app.use(express.json());
