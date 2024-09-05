@@ -19,5 +19,3 @@ build/
 
 # Arquivos de ambiente
 .env
-
-uploads/
