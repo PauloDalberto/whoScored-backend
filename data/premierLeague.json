@@ -4,7 +4,7 @@
     "name": "K. De Bruyne",
     "nationality": "Belgium",
     "club": "Manchester City",
-    "age": "33",
+    "age": 33,
     "position": "Midfielder",
     "date": "05/09/2024",
     "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725545110/premierLeague/djxzl9uphswtrxypskxv.mp4"
@@ -14,7 +14,7 @@
     "name": "Mohamed Salah",
     "nationality": "Egypt",
     "club": "Liverpool",
-    "age": "32",
+    "age": 32,
     "position": "Attacker",
     "date": "06/09/2024",
     "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725545209/premierLeague/nf39bqay1by34wwfiijh.mp4"
@@ -24,7 +24,7 @@
     "name": "Mohamed Salah",
     "nationality": "Egypt",
     "club": "Liverpool",
-    "age": "32",
+    "age": 32,
     "position": "Attacker",
     "date": "07/09/2024",
     "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725546002/premierLeague/o7yq0rwcqdmnaoxc2tev.mp4"
