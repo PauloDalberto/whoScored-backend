@@ -1,52 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Paulo Henrique Dalberto",
-    "nationality": "brasil",
-    "club": "das",
-    "age": "21",
-    "position": "21",
-    "date": "2024-09-04",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725459918/serieA/xavpe0cyom3dfvxyc0pg.mp4"
+    "name": "Lautaro Martínez",
+    "nationality": "Argentina",
+    "club": "Inter",
+    "age": "27",
+    "position": "Attacker",
+    "date": "05/09/2024",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725546155/serieA/uwed96aurvffjy4znqi7.mp4"
   },
   {
     "id": 2,
-    "name": "dsadas",
-    "nationality": "dsada",
-    "club": "dasd",
-    "age": "221",
-    "position": "dsa",
-    "date": "11/09/2024",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725463745/serieA/l9wkuhfw2qsvcspdluwi.mp4"
-  },
-  {
-    "id": 3,
-    "name": "das",
-    "nationality": "dadadda",
-    "club": "321",
-    "age": "321",
-    "position": "21",
-    "date": "02/09/2024",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725464429/serieA/kz8tefsv1xp8sgx2enmh.mp4"
-  },
-  {
-    "id": 4,
-    "name": "321",
-    "nationality": "312321",
-    "club": "321312",
-    "age": "3321312",
-    "position": "31231",
-    "date": "17/09/2024",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725464973/serieA/asxc6rakrhwp4dmzszpq.mp4"
-  },
-  {
-    "id": 5,
-    "name": "3123",
-    "nationality": "13123",
-    "club": "123123",
-    "age": "12321",
-    "position": "31321",
-    "date": "11/09/2024",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725466598/serieA/jier5qpphajrw2vcfslt.mp4"
+    "name": "Lautaro Martínez",
+    "nationality": "Argentina",
+    "club": "Inter",
+    "age": "27",
+    "position": "Attacker",
+    "date": "05/09/2024",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725546159/serieA/kp2eunbczcvvkoiuibit.mp4"
   }
 ]

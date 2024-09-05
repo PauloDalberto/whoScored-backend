@@ -1,49 +1,32 @@
 [
   {
     "id": 1,
-    "name": "das",
-    "nationality": "das",
-    "club": "das",
-    "age": "21",
-    "position": "das",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725454486/premierLeague/kjznkup7owk4msclc3fn.mp4"
+    "name": "K. De Bruyne",
+    "nationality": "Belgium",
+    "club": "Manchester City",
+    "age": "33",
+    "position": "Midfielder",
+    "date": "05/09/2024",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725545110/premierLeague/djxzl9uphswtrxypskxv.mp4"
   },
   {
     "id": 2,
-    "name": "Paulo Henrique Dalberto",
-    "nationality": "brasil",
-    "club": "porra",
-    "age": "231",
-    "position": "midflieder",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725455021/premierLeague/okpjjd4skfgu6gedvypq.mp4"
+    "name": "Mohamed Salah",
+    "nationality": "Egypt",
+    "club": "Liverpool",
+    "age": "32",
+    "position": "Attacker",
+    "date": "06/09/2024",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725545209/premierLeague/nf39bqay1by34wwfiijh.mp4"
   },
   {
     "id": 3,
-    "name": "dsa",
-    "nationality": "dsa",
-    "club": "dsa",
-    "age": "21",
-    "position": "dsa",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725459542/premierLeague/oex8i7wcmit3b3k3rgnk.mp4"
-  },
-  {
-    "id": 4,
-    "name": "ewqe",
-    "nationality": "ewq",
-    "club": "ewq",
-    "age": "2",
-    "position": "wq",
-    "date": "16/09/2024",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725467019/premierLeague/olekpphf7hhykovlogtw.mp4"
-  },
-  {
-    "id": 5,
-    "name": "chatgopt",
-    "nationality": "3123",
-    "club": "3213",
-    "age": "31321",
-    "position": "31232",
-    "date": "02/10/2024",
-    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725543261/premierLeague/uxz8kju5gxbczpazc5h8.mp4"
+    "name": "Mohamed Salah",
+    "nationality": "Egypt",
+    "club": "Liverpool",
+    "age": "32",
+    "position": "Attacker",
+    "date": "07/09/2024",
+    "videoUrl": "https://res.cloudinary.com/ddojnndpr/video/upload/v1725546002/premierLeague/o7yq0rwcqdmnaoxc2tev.mp4"
   }
 ]
