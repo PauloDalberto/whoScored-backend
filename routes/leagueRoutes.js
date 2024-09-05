@@ -78,10 +78,28 @@ router.post('/league/player', upload.single('videoFile'), async (req, res) => {
   }
 });
 
-// Rota para obter jogadores da liga
+// Rota para obter jogadores da liga específica
 router.get('/league/:league/players', (req, res) => {
   const league = req.params.league;
   const leagueData = loadLeagueData(league);
+  res.json(leagueData);
+});
+
+// Rota específica para Brasileirão
+router.get('/brasileirao', (req, res) => {
+  const leagueData = loadLeagueData('brasileirao');
+  res.json(leagueData);
+});
+
+// Rota específica para Premier League
+router.get('/premierLeague', (req, res) => {
+  const leagueData = loadLeagueData('premierLeague');
+  res.json(leagueData);
+});
+
+// Rota específica para Serie A
+router.get('/serieA', (req, res) => {
+  const leagueData = loadLeagueData('serieA');
   res.json(leagueData);
 });
 
