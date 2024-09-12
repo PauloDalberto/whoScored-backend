@@ -60,7 +60,7 @@ router.post('/league/player', upload.single('videoFile'), async (req, res) => {
       name,
       nationality,
       club,
-      age,
+      age: Number(age), 
       position,
       date: formatDate(date),
       videoUrl: result.secure_url,
